@@ -4,15 +4,15 @@
 #include <base64.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 const char ssid[] = "No free wifi for you :P";
-const char pass[] = "srini@123456789";
+const char pass[] = "***********";
 WiFiClient client;
 
 //---------Channel Details---------//
 unsigned long int interval = 86400000, prevSent2 = 0, prevSent1 = 0;
 unsigned long counterChannelNumber1 = 1209982;
 unsigned long counterChannelNumber2 = 1217400;         // Channel ID
-const char *myCounterReadAPIKey = "98D2M11Y3EXC3IZJ";  // Read API Key
-const char *myCounterReadAPIKey1 = "V6CPNBLFP7DZUWW7"; // Read API Key
+const char *myCounterReadAPIKey = "***********";  // Read API Key
+const char *myCounterReadAPIKey1 = "***********"; // Read API Key
 const int FieldNumber1 = 1;                            // The field you wish to read
 const int FieldNumber2 = 2;
 const int FieldNumber3 = 3;
@@ -22,8 +22,8 @@ bool safe2 = true;
 //nearby numbers
 String nearby = "9502215191";
 //-------------------------------//
-const char *account_sid = "AC05464dcb1ee0cf3258172f62eeffd0aa";
-const char *auth_token = "1de03482e67b470032c297801d658c4c";
+const char *account_sid = "***********";
+const char *auth_token = "***********";
 String from_number = "+18312176586";
 String to_number = "+919502215191";
 String message_body1 = "Alert: Go to 2";

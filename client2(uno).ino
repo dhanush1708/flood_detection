@@ -4,8 +4,8 @@
 #define RX 10
 #define TX 11
 String AP = "No free wifi for you :P"; // CHANGE ME
-String PASS = "srini@123456789";       // CHANGE ME
-String API = "O8IV31YQWXR0RV1W";       // CHANGE ME
+String PASS = "***********";       // CHANGE ME
+String API = "***********";       // CHANGE ME
 String HOST = "api.thingspeak.com";
 String PORT = "80";
 String field = "field1";

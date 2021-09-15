@@ -5,7 +5,7 @@
 
 String apiKey = "WH44RPOBWB81KXHN";            //  Enter your Write API key from ThingSpeak
 const char ssid[] = "No free wifi for you :P"; // replace with your wifi ssid and wpa2 key
-const char pass[] = "srini@123456789";
+const char pass[] = "***********";
 const char server[] = "api.thingspeak.com";
 //for flow sensor
 #define SENSOR 12
